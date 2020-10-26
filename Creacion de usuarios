@@ -1,0 +1,9 @@
+--------------------
+Creacion de usuarios
+---------------------
+
+useradd vicente
+useradd evelyn
+
+comando para ver los usuarios:
+cat /etc/passwd

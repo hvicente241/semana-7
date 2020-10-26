@@ -1,0 +1,24 @@
+----------------------------
+Crear un grupo llamado casa
+----------------------------
+--Entrar con superusuario con todos los privilegios su -
+
+groupadd casa
+
+---------------------------------------------------------------------
+Dentro del grupo casa crear 2 usuarios, 
+uno con el nombre de su papá o mamá y el otro usuario seria su nombre.
+---------------------------------------------------------------------
+Primero debes de crear los usuarios, los pasos estan abajo.
+
+root@hvi:~#adduser vicente casa
+Añadiendo al Usuario 'vicente' al grupo 'casa'... 
+Añadiendo al Usuario vicente al grupo casa
+Hecho.
+
+
+root@hvi:~#adduser evelyn casa
+Añadiendo al Usuario 'evelyn' al grupo 'casa'... 
+Añadiendo al Usuario evelyn al grupo casa
+Hecho.
+

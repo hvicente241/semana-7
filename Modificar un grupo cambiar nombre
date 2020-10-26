@@ -1,0 +1,7 @@
+Modificar un grupo cambiar nombre
+
+
+root@hvi:~#groupmod -n familia  casa
+
+cat /etc/group--------Para listar los grupos que hay en nuestro sistema
+
